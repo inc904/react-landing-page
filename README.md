@@ -67,28 +67,28 @@ Watch the full tutorial on [YouTube](https://youtu.be/qeCBBxZoqAM).
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en/)
-- [npm](https://www.npmjs.com/)
+- [pnpm](https://pnpm.io/)
 
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-saas-landing-page.git
-cd ai-saas-landing-page
+git clone https://github.com/inc904/react-landing-page
+cd react-landing-page
 ```
 
 ### Installing Dependencies
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### Running the Development Server
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
-Your site will be running at [http://localhost:3000](http://localhost:3000).
+Your site will be running at [http://localhost:5173](http://localhost:5173).
 
 ## 💻 Code Snippets
 
@@ -175,7 +175,6 @@ export const Button: React.FC<ButtonProps> = ({ onClick, children, className = "
 - **Design Tokens:**  
   The design tokens for colors, shadows, and typography are defined in the global CSS file using the `@theme` directive, ensuring consistent dark/light mode styling.
 
----
 
-Feel free to customize this README to suit your project's needs. Happy coding and enjoy building your modern AI SaaS landing page!
-```
+> Feel free to customize this README to suit your project's needs. Happy coding and enjoy building your modern AI SaaS landing page!
+
